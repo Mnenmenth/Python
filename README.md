@@ -1,0 +1,1 @@
+Snake game written in Python. Hence, the name of the game is Python
