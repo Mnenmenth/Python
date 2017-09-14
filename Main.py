@@ -55,7 +55,7 @@ while True:
     if food.is_eaten(python.head_rect()):
         python.add_tail_segment()
         score += 1
-        score_text = score_font.render("Score: {0}/{0}".format(score, max_score), False, (255, 255, 0))
+        score_text = score_font.render("Score: {0}/{1}".format(score, max_score), False, (255, 255, 0))
         food = Food()
     pygame.display.get_surface().blit(score_text, (screen_width - score_text.get_width() - 50,
                                                    screen_height - score_text.get_height() - 10))
